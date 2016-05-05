@@ -130,3 +130,7 @@ And if you are on OSX and want to copy the results directly into the clipboard:
 ```
 ruby build_list.rb | pbcopy
 ```
+
+The script fetches the list of icons from [this repository](https://github.com/mapbox/maki/tree/master/icons).
+
+Preview URLs are then converted with https://rawgit.com/ because the raw URLs GitHub provides are not served with the correct MIME type (it serves them as plain text).
