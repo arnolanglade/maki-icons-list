@@ -27,6 +27,8 @@ list = icons.map do |icon|
   }
 end
 
+puts "Icon | Preview"
+puts "-----|--------"
 list.each do |icon|
-  puts "- #{icon[:name]} ![#{icon[:name]}](#{icon[:url]})"
+  puts "| #{icon[:name]} | ![#{icon[:name]}](#{icon[:url]}) |"
 end
